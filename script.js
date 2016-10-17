@@ -1,22 +1,15 @@
-function ConstructApple(){
-    
-    var i = 100;
-    
-    console.log(i);
+var tejaswi = 10, krishna = 10;
+var array = [];
 
+if (tejaswi === krishna)
+{
+    console.log('krishna is lucky');
     
-    this.color = 'red';
-    this.price = 100;
-    this.type = 'shimla';
-    
+    for(var i=0;i<10;i++)
+    {
+        array.push(tejaswi * i)
+        console.log('array',array, array.length);
+    }
+
 }
-
-ConstructApple.prototype = {
-    eat:function(){return 'eat'},
-    throw:function(){return 'touchdown'},
-    nibble:function(){return 'slowy'}
-}
-
-var apple = new ConstructApple(this is so awesomeΩ);
-var apple1 = new ConstructApple(this is so awesomeΩ);
-var apple2= new ConstructApple(this is so awesomeΩ);this is so awesomeΩ
+else {console.log('krishna is not lucky')}
